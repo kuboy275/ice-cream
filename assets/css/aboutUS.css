@@ -1,0 +1,53 @@
+.btn:focus {
+  outline: none;
+  box-shadow: none; }
+
+.btn-green {
+  background: #8FA83B;
+  color: #fff !important;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 10px; }
+
+.story {
+  margin-block: 100px; }
+  @media only screen and (max-width: 992px) {
+    .story {
+      margin-block: 70px; } }
+
+.special__wrap {
+  margin-block: 80px; }
+  .special__wrap-item {
+    margin-bottom: 80px; }
+    .special__wrap-item:nth-child(2) {
+      flex-direction: row-reverse;
+      text-align: right; }
+    .special__wrap-item .content h6 {
+      margin-block: 20px;
+      font-size: 22px;
+      font-family: "Abhaya Libre", serif; }
+    .special__wrap-item .content p {
+      font-size: 14px;
+      line-height: 24px;
+      color: #909090; }
+
+.standart__banner {
+  background: url(../img/standart-bg.png) no-repeat center;
+  background-size: cover;
+  padding-block: 100px 150px;
+  margin-block: 50px; }
+
+.standart__list-item {
+  margin-bottom: 40px; }
+  .standart__list-item img {
+    flex-shrink: 1;
+    margin-right: 50px;
+    object-fit: contain; }
+  .standart__list-item .content h6 {
+    font-weight: 700;
+    font-size: 20px; }
+  .standart__list-item .content p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E8E8E8; }

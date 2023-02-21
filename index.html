@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <title>Ice Cream | Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="./assets/css/homePage.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav navbar-expand-lg navbar-light d-flex align-items-center justify-content-between"><a class="navbar__logo" href="./index.html"> <img src="./assets/img/logo-header.png"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navheader" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="nav-list collapse navbar-collapse justify-content-end" id="navheader">
+            <ul class="navbar-nav my-4 my-lg-0 align-items-lg-center"> 
+              <li class="nav-item"> <a class="nav-link" href="./index.html">HOME</a></li>
+              <li class="nav-item"> <a class="nav-link" href="./about.html">ABOUT US</a></li>
+              <li class="nav-item"> <a class="nav-link" href="#!">SHOP<i class="fas fa-caret-down"></i></a></li>
+              <li class="nav-item"> <a class="nav-link" href="#!">PAGES<i class="fas fa-caret-down"></i></a></li>
+              <li class="nav-item"> <a class="nav-link" href="#!">BLOG</a></li>
+              <li class="nav-item"> <a class="nav-link" href="#!">CONTACT</a></li>
+            </ul>
+            <button class="mini-cart mr-3 mr-lg-0"> <span>2</span><img src="./assets/img/cart.png"></button>
+            <button class="search"> <img src="./assets/img/search.png"></button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="banner"> 
+      <div class="carousel slide carousel-fade" id="carouselAuto" data-ride="carousel">
+        <div class="carousel-inner"> 
+          <div class="carousel-item active" data-interval="2500"><img src="./assets/img/banner-slide-1.png" alt="banner"/></div>
+          <div class="carousel-item" data-interval="2500"><img src="./assets/img/banner-slide-2.jpg" alt="banner"/></div>
+          <div class="carousel-item" data-interval="2500"><img src="./assets/img/banner-slide-3.jpg" alt="banner"/></div>
+        </div>
+        <button class="carousel-controls carousel-control-prev" type="button" data-target="#carouselAuto" data-slide="prev"><span class="carousel-icon carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-chevron-left"></i></span></button>
+        <button class="carousel-controls carousel-control-next" type="button" data-target="#carouselAuto" data-slide="next"><span class="carousel-icon carousel-control-next-icon" aria-hidden="true"><i class="fas fa-chevron-right"></i></span></button>
+      </div>
+    </section>
+    <section class="image-top-left py-5"><img src="./assets/img/top-left2.png" height="170"></section>
+    <section class="welcome"> 
+      <div class="container"> 
+        <h2 class="title-page">WELCOME TO ICE CREAM</h2>
+        <div class="row justify-content-center welcome__products"> 
+          <div class="welcome__products-item col-6 col-sm-4 col-lg-3">
+            <div class="img"> <img src="./assets/img/welcome-p-1.png" width="100%"/>
+              <div class="layer-hover"> 
+                <h1>get the best for</h1>
+                <h4>30% Off</h4>
+                <p>on products</p>
+              </div>
+            </div>
+            <h6>Hot Chocolate Cream</h6>
+            <p>Choco Chips</p>
+          </div>
+          <div class="welcome__products-item col-6 col-sm-4 col-lg-3">
+            <div class="img"> <img src="./assets/img/welcome-p-2.png" width="100%"/>
+              <div class="layer-hover"> 
+                <h1>get the best for</h1>
+                <h4>30% Off</h4>
+                <p>on products</p>
+              </div>
+            </div>
+            <h6>Cool Scoop Ice Cream</h6>
+            <p>Coffee</p>
+          </div>
+          <div class="welcome__products-item col-6 col-sm-4 col-lg-3">
+            <div class="img"> <img src="./assets/img/welcome-p-3.png" width="100%"/>
+              <div class="layer-hover"> 
+                <h1>get the best for</h1>
+                <h4>30% Off</h4>
+                <p>on products</p>
+              </div>
+            </div>
+            <h6>Banana With Chocolate</h6>
+            <p>Exotic Flavour</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="image-right-bottom text-right"><img class="mt-n5" src="./assets/img/right-bottom2.png" height="170"></section>
+    <section class="trending mb-5"> 
+      <div class="container"> <img class="img-title-page mx-auto d-block" src="./assets/img/title-trending.jpg">
+        <h6 class="title-page">Trending Products</h6>
+        <div class="row trending__items justify-content-center pb-4 pb-lg-5">
+          <div class="trending__items-img col-3 col-lg-2"> <img src="./assets/img/trending-1.png" width="100%"/></div>
+          <div class="trending__items-img col-3 col-lg-2"> <img src="./assets/img/trending-2.png" width="100%"/></div>
+          <div class="trending__items-img col-3 col-lg-2"> <img src="./assets/img/trending-3.png" width="100%"/></div>
+        </div>
+        <div class="row trending__products mt-3 mt-lg-5">
+          <div class="trending__products-item text-center col-6 col-md-4 col-lg-4 mb-5">
+            <div class="imgs text-center mb-4"><img src="./assets/img/trending-p-1.png" width="80%"/></div>
+            <h4>Mexican chocolate</h4>
+            <div class="prices d-flex justify-content-center align-items-center"> 
+              <p>$262.00</p>
+            </div>
+            <div class="ratings d-flex justify-content-center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+          </div>
+          <div class="trending__products-item text-center col-6 col-md-4 col-lg-4 mb-5">
+            <div class="imgs text-center mb-4"><img src="./assets/img/trending-p-2.png" width="80%"/></div>
+            <h4>Chocolate Peanut</h4>
+            <div class="prices d-flex justify-content-center align-items-center"> 
+              <p>$262.00</p>
+            </div>
+            <div class="ratings d-flex justify-content-center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+          </div>
+          <div class="trending__products-item text-center col-6 col-md-4 col-lg-4 mb-5">
+            <div class="imgs text-center mb-4"><img src="./assets/img/trending-p-3.png" width="80%"/></div>
+            <h4>Vannilla with honey</h4>
+            <div class="prices d-flex justify-content-center align-items-center"> 
+              <p>$262.00</p>
+            </div>
+            <div class="ratings d-flex justify-content-center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+          </div>
+          <div class="trending__products-item text-center col-6 col-md-4 col-lg-4 mb-5">
+            <div class="imgs text-center mb-4"><img src="./assets/img/trending-p-4.png" width="80%"/></div>
+            <h4>Rainbow Sherbet</h4>
+            <div class="prices d-flex justify-content-center align-items-center"> 
+              <p>$262.00</p>
+            </div>
+            <div class="ratings d-flex justify-content-center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+          </div>
+          <div class="trending__products-item text-center col-6 col-md-4 col-lg-4 mb-5">
+            <div class="imgs text-center mb-4"><img src="./assets/img/trending-p-5.png" width="80%"/></div>
+            <h4>Blue popsicle</h4>
+            <div class="prices d-flex justify-content-center align-items-center"> 
+              <p>$262.00</p><span class="sale">$75.00</span>
+            </div>
+            <div class="ratings d-flex justify-content-center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+          </div>
+          <div class="trending__products-item text-center col-6 col-md-4 col-lg-4 mb-5">
+            <div class="imgs text-center mb-4"><img src="./assets/img/trending-p-6.png" width="80%"/></div>
+            <h4>Choco lemon</h4>
+            <div class="prices d-flex justify-content-center align-items-center"> 
+              <p>$262.00</p>
+            </div>
+            <div class="ratings d-flex justify-content-center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+          </div>
+        </div>
+        <div class="row trending__controls justify-content-center">
+          <button class="btn btn-prev"><i class="fas fa-long-arrow-alt-left mr-2"></i>PREV</button>
+          <button class="btn btn-next">NEXT<i class="fas fa-long-arrow-alt-right ml-2"></i></button>
+        </div>
+      </div>
+    </section>
+    <section class="sevices mb-5">
+      <div class="container"> 
+        <h6 class="title-page text-white">High Quality Services</h6>
+        <div class="row sevices__items justify-content-center"> 
+          <div class="col-md-4 col-lg-4 text-center text-white sevices__items-column mb-4"><img class="mb-3" src="./assets/img/sevices-1.png" width="50px" height="50px"/>
+            <h6>ice Cream</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer.</p>
+            <button class="btn btn-more">More info</button>
+          </div>
+          <div class="col-md-4 col-lg-4 text-center text-white sevices__items-column mb-4"><img class="mb-3" src="./assets/img/sevices-2.png" width="50px" height="50px"/>
+            <h6>ice Cream</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer.</p>
+            <button class="btn btn-more">More info</button>
+          </div>
+          <div class="col-md-4 col-lg-4 text-center text-white sevices__items-column mb-4"><img class="mb-3" src="./assets/img/sevices-3.png" width="50px" height="50px"/>
+            <h6>ice Cream</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer.</p>
+            <button class="btn btn-more">More info</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="flavour mb-5"> 
+      <div class="container-fluid px-lg-0"><img class="img-title-page mx-auto d-block" src="./assets/img/fl-title.png">
+        <h6 class="title-page">Flavours of Ice Cream</h6>
+        <div class="row align-items-end justify-content-between flavour__wrap"> 
+          <div class="col-2 d-none-d-lg-block img-wrap mb-4 mb-lg-0"><img src="./assets/img/flavour-left.png" width="100%"></div>
+          <div class="col-lg-3 flavour__list pl-lg-0"> 
+            <div class="flavour__list-item d-flex">
+              <div class="info"> 
+                <h6>Stracciatella</h6>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div><img src="./assets/img/fl-1.png"/>
+            </div>
+            <div class="flavour__list-item d-flex">
+              <div class="info"> 
+                <h6>Stracciatella</h6>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div><img src="./assets/img/fl-2.png"/>
+            </div>
+            <div class="flavour__list-item d-flex">
+              <div class="info"> 
+                <h6>Stracciatella</h6>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div><img src="./assets/img/fl-3.png"/>
+            </div>
+          </div>
+          <div class="col-lg-2 text-center flavour__multiple-cream mb-5 mb-lg-0"> <img src="./assets/img/fl-multiple.png">
+            <button class="btn btn-cream">
+               Multi Ice Cream<small>Feel Cool</small></button>
+          </div>
+          <div class="col-lg-3 flavour__list right pr-lg-0">
+            <div class="flavour__list-item d-flex">
+              <div class="info"> 
+                <h6>Stracciatella</h6>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div><img src="./assets/img/fl-4.png"/>
+            </div>
+            <div class="flavour__list-item d-flex">
+              <div class="info"> 
+                <h6>Stracciatella</h6>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div><img src="./assets/img/fl-5.png"/>
+            </div>
+            <div class="flavour__list-item d-flex">
+              <div class="info"> 
+                <h6>Stracciatella</h6>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div><img src="./assets/img/fl-6.png"/>
+            </div>
+          </div>
+          <div class="col-2 d-none-d-lg-block img-wrap"><img src="./assets/img/flavour-right.png" width="100%"></div>
+        </div>
+      </div>
+    </section>
+    <section class="prices prices-bg">
+      <div class="container"> 
+        <h6 class="title-page text-white">Our Prices </h6>
+        <div class="row justify-content-center prices__cards py-4"> 
+          <div class="col-6 col-md-6 col-lg-3 mb-5 pb-5 pb-lg-0"> 
+            <div class="prices__cards-item">
+              <div class="head"> <img src="./assets/img/price-1.png"/>
+                <h6>Small Box</h6>
+              </div>
+              <div class="content"> 
+                <p class="price"> 15 <sup>$</sup></p>
+                <div class="cake">For 1 cake </div>
+                <div class="list"> 
+                  <p>1 x Sweet Aniseed</p>
+                  <p>1 x Soft Fruits</p>
+                  <p>1 x Assorted</p>
+                </div>
+                <button class="btn btn-buy-now">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-6 col-lg-3 mb-5 pb-5 pb-lg-0"> 
+            <div class="prices__cards-item">
+              <div class="head"> <img src="./assets/img/price-2.png"/>
+                <h6>Small Box</h6>
+              </div>
+              <div class="content"> 
+                <p class="price"> 15 <sup>$</sup></p>
+                <div class="cake">For 1 cake </div>
+                <div class="list"> 
+                  <p>2 x Sweet Aniseed</p>
+                  <p>2 x Soft Fruits</p>
+                  <p>2 x Assorted</p>
+                </div>
+                <button class="btn btn-buy-now">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-6 col-lg-3 mb-5 pb-5 pb-lg-0"> 
+            <div class="prices__cards-item">
+              <div class="head"> <img src="./assets/img/price-3.png"/>
+                <h6>Small Box</h6>
+              </div>
+              <div class="content"> 
+                <p class="price"> 15 <sup>$</sup></p>
+                <div class="cake">For 1 cake </div>
+                <div class="list"> 
+                  <p>5 x Sweet Aniseed</p>
+                  <p>5 x Soft Fruits</p>
+                  <p>5 x Assorted</p>
+                </div>
+                <button class="btn btn-buy-now">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-6 col-lg-3 mb-5 pb-5 pb-lg-0"> 
+            <div class="prices__cards-item">
+              <div class="head"> <img src="./assets/img/price-4.png"/>
+                <h6>Small Box</h6>
+              </div>
+              <div class="content"> 
+                <p class="price"> 15 <sup>$</sup></p>
+                <div class="cake">For 1 cake </div>
+                <div class="list"> 
+                  <p>10 x Sweet Aniseed</p>
+                  <p>10 x Soft Fruits</p>
+                  <p>10 x Assorted</p>
+                </div>
+                <button class="btn btn-buy-now">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="clients py-5">
+      <div class="container-fluid"><img class="img-title-page mx-auto d-block" src="./assets/img/clients-title.png">
+        <h6 class="title-page">Our Clients Say</h6>
+        <div class="row clients__wrap my-5">
+          <div class="col-lg-2 d-none d-lg-block px-0"><img src="./assets/img/cl-left.png" width="100%"></div>
+          <div class="col-lg-8"> 
+            <div class="clients__slider"> 
+              <div class="clients__slider-item text-center">
+                <div class="avatar text-center mb-5"><img class="d-inline-block" src="./assets/img/ava-1.png"/></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suspendisse feugiat eget ornare odio.</p>
+                <h6>Diana Jone</h6>
+              </div>
+              <div class="clients__slider-item text-center">
+                <div class="avatar text-center mb-5"><img class="d-inline-block" src="./assets/img/ava-2.png"/></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suspendisse feugiat eget ornare odio.</p>
+                <h6>Diana Jone</h6>
+              </div>
+              <div class="clients__slider-item text-center">
+                <div class="avatar text-center mb-5"><img class="d-inline-block" src="./assets/img/ava-3.png"/></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suspendisse feugiat eget ornare odio.</p>
+                <h6>Diana Jone</h6>
+              </div>
+              <div class="clients__slider-item text-center">
+                <div class="avatar text-center mb-5"><img class="d-inline-block" src="./assets/img/ava-4.png"/></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suspendisse feugiat eget ornare odio.</p>
+                <h6>Diana Jone</h6>
+              </div>
+              <div class="clients__slider-item text-center">
+                <div class="avatar text-center mb-5"><img class="d-inline-block" src="./assets/img/ava-5.png"/></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suspendisse feugiat eget ornare odio.</p>
+                <h6>Diana Jone</h6>
+              </div>
+              <div class="clients__slider-item text-center">
+                <div class="avatar text-center mb-5"><img class="d-inline-block" src="./assets/img/ava-6.png"/></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suspendisse feugiat eget ornare odio.</p>
+                <h6>Diana Jone</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 d-none d-lg-block px-0"><img src="./assets/img/cl-right.png" width="100%"></div>
+        </div>
+      </div>
+    </section>
+    <section class="contact my-5 py-5"><img class="metlting-left" src="./assets/img/melting-left.png"><img class="metlting-right" src="./assets/img/melting-right.png">
+      <div class="container">
+        <h6 class="title-page text-white">Contact Us </h6>
+        <div class="contact__wrap"> 
+          <div class="row justify-content-between"> 
+            <div class="col-lg-4">
+              <div class="contact__info">
+                <button class="btn btn-feedback">Contact Us </button>
+                <h3>Leave your Feedback </h3>
+                <p>Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+                <div class="list-info"> 
+                  <div class="list-item d-flex justify-content-between"> 
+                    <p class="key">Address:</p>
+                    <p class="value">75/68 Hoang Sa</p>
+                  </div>
+                  <div class="list-item d-flex justify-content-between"> 
+                    <p class="key">City:</p>
+                    <p class="value">Ho Chi Minh</p>
+                  </div>
+                  <div class="list-item d-flex justify-content-between"> 
+                    <p class="key">Email:</p>
+                    <p class="value">yupee@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <form class="contact__form">
+                <div class="form-row"> 
+                  <div class="form-group col-md-6">
+                    <input class="form-control" placeholder="Name"/>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input class="form-control" placeholder="Sur Name"/>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input class="form-control" placeholder="Email"/>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input class="form-control" placeholder="City"/>
+                  </div>
+                  <div class="form-group col-md-12">
+                    <input class="form-control" placeholder="Subject"/>
+                  </div>
+                  <div class="form-group col-md-12">
+                    <textarea class="form-control" rows="6" spellcheck="false" placeholder="Message"></textarea>
+                  </div>
+                </div>
+                <button class="btn btn-submit w-100">SEND NOW</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer"> 
+      <div class="container"> 
+        <div class="row footer__wrap justify-content-between py-5">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="footer__first"><img class="logo-footer mb-5" src="./assets/img/logo-footer.png">
+              <p class="desc"> Lorem ipsum dolor sit amet, matti consectetuer adipiscing  suspendisse et justo.  Praesent mattis ugue.</p>
+              <div class="socials d-flex mt-4">
+                <div class="social-item mr-3"> <a href="facebook.com"> <img src="./assets/img/icon-fb.png"/></a></div>
+                <div class="social-item mr-3"> <a href="instagram.com"> <img src="./assets/img/icon-ins.png"/></a></div>
+                <div class="social-item mr-3"> <a href="twitter.com"> <img src="./assets/img/icon-tw.png"/></a></div>
+                <div class="social-item mr-3"> <a href="google.com"> <img src="./assets/img/icon-gg.png"/></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 mb-4 mb-lg-0">
+            <div class="footer__item"> 
+              <h6 class="title mb-3 mb-lg-5">Open Hour</h6>
+              <div class="list-info"> 
+                <h6>
+                   Monday:<span>Closed</span></h6>
+                <h6>Tuesday to Friday:</h6>
+                <p>7:00 AM - 9:00 PM</p>
+                <h6>Saturday to Sunday:</h6>
+                <p>11:00 AM - 10:00 PM</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="footer__item"> 
+              <h6 class="title mb-3 mb-lg-5">Find US</h6>
+              <div class="list-info"> 
+                <h6>Address:<span>75/68 Hoang Sa F9, Q3, Tp.HCM</span></h6>
+                <h6>Email:<span>yupee@gmail.com</span></h6>
+                <h6>Phone:<span>+44 987-654-3210</span></h6>
+                <h6>Fax:<span>+44 987-654-3210</span></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right text-center py-4 py-lg-5">
+        <p>Copyright © 2020 Yupee Store.  </p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+      $('.clients__slider').slick({
+          dots: true,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          autoplay: false,
+          autoplaySpeed: 4000,
+          arrows: false,
+          responsive: [ 
+              {
+                  breakpoint: 1200,
+                      settings: {
+                          slidesToShow: 2,
+                      slidesToScroll: 2,
+                  }
+              },
+              {
+                  breakpoint: 768,
+                      settings: {
+                          slidesToShow: 1,
+                      slidesToScroll: 1,
+                  }
+              }
+          ]
+      });
+      
+    </script>
+  </body>
+</html>
